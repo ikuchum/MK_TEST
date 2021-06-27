@@ -1,0 +1,8 @@
+newsList:
+    path: /
+    controller: App\Controller\DefaultController::newsList
+
+
+newsPage:
+  path: /news/{slug}
+  controller: App\Controller\NewController::newsPage
